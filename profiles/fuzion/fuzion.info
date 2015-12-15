@@ -1,0 +1,49 @@
+name = Fuzion
+description = Fuzion installation profile with sane defaults for modules and other settings.
+core = 7.x
+
+dependencies[] = admin_menu
+dependencies[] = archimedes
+dependencies[] = block
+dependencies[] = coffee
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_all_day
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+dependencies[] = dblog
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = image
+dependencies[] = libraries
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = module_filter
+dependencies[] = number
+dependencies[] = options
+dependencies[] = page_manager
+dependencies[] = path
+dependencies[] = pathauto
+dependencies[] = rdf
+dependencies[] = rules
+dependencies[] = strongarm
+dependencies[] = syslog
+dependencies[] = taxonomy
+dependencies[] = token
+dependencies[] = search
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = webform
+dependencies[] = wysiwyg
+
+;; Feature modules
+dependencies[] = text_formats_and_wysiwyg
+
+files[] = fuzion.profile
